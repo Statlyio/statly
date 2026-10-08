@@ -1,45 +1,45 @@
-# Installing Statly
+# Getting started with Statly
 
-## Requirements
+Statly has two parts. The **web app** tracks the accounts you choose every day. The free **Chrome extension** audits any account while you browse. You can use either one alone, or connect them.
 
-- Google Chrome, or any Chromium-based browser that supports the Chrome Web Store (Edge, Brave, Arc, etc.)
-- A public Instagram or TikTok profile to scan (yours or anyone else's) — no login changes needed on either platform
+## Start the web app (7-day free trial)
 
-## Steps
+1. Go to [app.trystatly.com](https://app.trystatly.com) and sign in with your email. Statly sends you a sign-in link, so there is no password to remember.
+2. **Name your workspace.** One workspace per brand or client works well.
+3. **Add your first account.** Paste a handle (for example `@gymshark`) or a profile link from Instagram, TikTok, YouTube or X. It must be a public account.
+4. **Pick the hour your data should be ready.** Statly re-reads every account once a day, before that hour, in your time zone.
+5. **Choose a plan.** Checkout asks for a card and starts a 7-day free trial; the plan begins after 7 days unless you cancel. Compare plans on [trystatly.com/pricing](https://trystatly.com/pricing).
 
-1. Open the [Statly listing on the Chrome Web Store](https://chromewebstore.google.com/detail/statly/dgclmofackofobhpmklmhbponpkjbbph).
-2. Click **Add to Chrome**, then **Add extension** in the confirmation dialog.
-3. Pin the Statly icon to your toolbar for quick access (puzzle-piece icon → pin).
-4. Go to [instagram.com](https://instagram.com) or [tiktok.com](https://tiktok.com) and open any **public** profile.
-5. Click the Statly icon.
-   - On Instagram or TikTok, the dashboard opens directly on top of the page.
-   - From any other tab, a small "Choose a feed" popup lets you jump to Instagram or TikTok first.
-6. Choose a dashboard — **Audit** is the best place to start — and run your first scan.
+Statly scans your first account straight away. After that:
 
-No account creation, email address, or Meta/TikTok permissions are required to use the free tier.
+- **Add more accounts** and group them into niches (by topic, competitor set or client). You can paste several handles or links at once.
+- **Choose your scan window** (the last 7, 14 or 30 days) in Settings.
+- **Invite your team** as viewers, editors or admins.
+- **Turn on alerts** in Slack, Discord or Telegram.
+- On Scale and above, **create an API key or connect Claude, ChatGPT or Cursor** under Settings → API & MCP ([API docs](https://api.trystatly.com), [MCP guide](https://trystatly.com/mcp)).
 
-## Upgrading to Pro
+## Install the Chrome extension (free)
 
-1. Open Statly's **Pricing** tab (or visit [trystatly.com/#pricing](https://trystatly.com/#pricing)).
-2. Choose Monthly or Yearly and complete checkout via LemonSqueezy.
-3. You'll receive a license key by email.
-4. In Statly, open **Activation**, paste your key, and click **Activate**.
-5. Unlimited scans and the Compare, Merge, Watchlist, Trend Finder dashboards, and API access unlock immediately.
+1. Open the [Statly listing on the Chrome Web Store](https://chromewebstore.google.com/detail/statly/dgclmofackofobhpmklmhbponpkjbbph) and click **Add to Chrome**. It works in Chrome and Chromium browsers that use the Chrome Web Store.
+2. Pin the Statly icon to your toolbar (puzzle-piece icon → pin).
+3. Open any public Instagram, TikTok, YouTube or X profile and click the Statly icon.
+4. Pick a tool. **Audit** is the best place to start.
 
-## Uninstalling
+No Statly account is needed for the free extension. The free limits are 3 scans a day (shared by Audit, Compare and Merge) and 2 niches of 3 accounts in the Watchlist and Trend Finder.
 
-1. Right-click the Statly icon in your Chrome toolbar.
-2. Select **Remove from Chrome**.
-3. Confirm removal.
+## Connect the extension to the web app
+
+1. In the web app, open **Settings → Chrome extension** and connect.
+2. While your plan or free trial is running, the extension's free limits are gone. Teammates with the Viewer role stay on the free limits.
 
 ## Troubleshooting
 
-| Issue | Fix |
+| What you see | What to do |
 |---|---|
-| Icon doesn't appear on Instagram/TikTok | Refresh the tab after installing; make sure the extension is enabled in `chrome://extensions`. |
-| Scan doesn't start | Confirm the profile is public — Statly can't scan private accounts on either platform. |
-| TikTok scan returns empty | TikTok changes its request signature more often than Instagram; try again after a few seconds, or reload the profile tab. |
-| Hit the daily scan limit | Free tier is 3 scans/day; upgrade to Pro for unlimited scans, or wait for the daily reset. |
-| License key not activating | Check your LemonSqueezy confirmation email for the exact key, and make sure you're not already using it on another device (each key syncs to one active machine, toggle-able in Settings). |
+| An account shows **Private** | Statly can only track public accounts. |
+| An account shows **Account not found** | The handle was renamed or deleted. Check the spelling, or remove it and add the new handle. |
+| A video's growth says **Too new** | Growth appears once a video is two days old. |
+| The extension icon does nothing on a profile | Reload the tab after installing, and check that Statly is turned on in `chrome://extensions`. |
+| The extension says you used today's scans | Free scans reset at midnight, or connect the extension to a web app plan or trial. |
 
-Still stuck? Email [info.statly@gmail.com](mailto:info.statly@gmail.com).
+Still stuck? Email [info@trystatly.com](mailto:info@trystatly.com) or ask in the [Telegram community](https://t.me/+vN3txumYQVlkZTFk).

@@ -1,80 +1,30 @@
 # Changelog
 
-All notable changes to Statly will be documented here. Format loosely follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Notable changes to Statly, newest first. The web app updates continuously; the Chrome extension ships numbered versions through the Chrome Web Store.
 
-## [12.9.70] — current
+## Web app
 
-TikTok host permissions, manifest, background routing, and popup platform picker are current as of this build. TikTok analytics now covers Audit, Compare, Merge, Watchlist, Trend Finder, KPIs, and Charts — matching Instagram feature-for-feature.
+### October 2026
 
-## [12.8.2] — Sync latest Instagram changes from production
+- **Every Instagram video refreshed, every day** (7–8 Oct). When Instagram's list of an account's videos leaves some out, Statly now reads those videos one by one, so everything inside your window is refreshed daily. Videos the creator deleted disappear from your dashboards and the API instead of keeping old numbers.
+- **Clearer growth figures** (7 Oct). Each video's growth explains itself: "Too new" for its first two days, and a short reason wherever a figure is missing.
+- **Add to Statly** (7 Oct). The web app is ready for the extension's one-click "Add to Statly" (arriving with extension 12.5.1). An open dashboard notices accounts added from the extension and shows their first scan.
+- **Chrome extension link** (6 Oct). Connect the extension under Settings → Chrome extension; a running plan or trial removes its free limits.
+- **X (Twitter)** (3 Oct). Track X accounts: original posts and quotes, with views, likes, replies, reposts, quotes and bookmarks, a post type filter, and buttons to save a post's pictures and text.
+- **Extra videos** (3 Oct). Scale and Agency can add +1,000 or +2,000 videos to their plan, monthly.
 
-- Brought the production Instagram dashboard up to date with two Web Store changes:
-  1. Thumbnail fallback chain: when a signed CDN URL 403s, fall back to a session-redirect URL, then a grey placeholder.
-  2. "Trial ended" modal: shows once after the 7-day trial expires, with an Upgrade path to Lemon Squeezy.
-- TikTok files, manifest, background, and popup wiring unchanged in this release.
+### September 2026
 
-## [12.8.1] — Fix chart sizing (TikTok)
+- **TikTok and YouTube Shorts** (23 Sep), next to Instagram, in the same Trend Finder and Watchlist.
+- **Alerts in Slack, Discord and Telegram** (23 Sep).
+- **Statly API and Statly MCP** (24 Sep). A read-only REST API and an MCP server for Claude, ChatGPT and Cursor, on Scale and above.
+- **Plans and the 7-day free trial** (19–20 Sep): Starter, Scale, Agency and Enterprise.
+- **Outliers** (20 Sep). A video counts as an outlier at 2× its account's median views or more.
+- **Library, workspaces and teams** (15–17 Sep). Save videos into folders with tags, keep a workspace per client, and invite teammates.
+- **Trend Finder and Watchlist** (September). Outlier maths matches the Chrome extension exactly, so both products rank videos the same way.
 
-- Charts now render at fixed, Instagram-style heights (line ~320px, scatter ~280px, cumulative ~220px, pareto ~190px, time ~220px) instead of scaling height with width, so each chart fills its row without ballooning vertically.
+## Chrome extension
 
-## [12.8.0] — Audit KPIs + Charts (TikTok)
-
-- **KPIs tab**: Basic KPIs (Total/Avg/Median Views, Likes, Comments; Total Posts; Avg Daily Posts; Median Duration) plus Executive KPIs (VTFR, RCI, HPF, BPR, ER, ESI, CR, AER, ARD, SDD, DP, BRR) — identical formulas to Instagram.
-- **Charts tab**: Performance Over Time (metric toggle), Posting Activity Heatmap, Posting Time Distribution, Engagement Rate vs Views scatter, Cumulative Views Growth, Top 20% Views Share (Pareto), Performance Tier Dot Matrix — all with hover tooltips.
-
-## [12.7.2] — Audit post cards match Instagram sizing + hover (TikTok)
-
-- Rebuilt post cards to Instagram's exact compact grid layout, tinted metric bars, and smaller typography.
-- Added Instagram's hover "lift" effect (card raises with a soft shadow) on each post card.
-
-## [12.7.1] — Audit full-screen (TikTok, matches Instagram)
-
-- Audit is now a full-screen feature like on Instagram: the sidebar hides during Audit, replaced by a minimal top bar (logo · ← Home · close).
-- Loading screen rebuilt to match Instagram exactly: spinner ring + "Analyzing" + gradient progress bar, full-screen.
-
-## [12.7.0] — Audit dashboard: Posts tab (TikTok)
-
-- Audit results now render as a full report dashboard (matching the Instagram Reels tab): dark header with avatar, @handle, Followers/Likes/Videos counts, Posts/KPIs/Charts tabs, and New Scan.
-- Toolbar: Sort By (views/likes/comments/shares/saves/engagement/newest/oldest), Copy, Export, post count.
-- Ranked post cards with proportional metric bars for Views, Likes, Comments, Shares, Saves, Engagement Rate, and Duration.
-- Copy (clipboard summary) and Export (CSV including engagement %) both shipped. KPIs/Charts tabs were stubbed here and shipped in 12.8.0.
-
-## [12.6.0] — Watchlist & Trend Finder (TikTok)
-
-- **Watchlist**: add creators (saved across sessions); "Scan watchlist" sweeps them in one tab and returns a per-account summary (followers, total videos, scanned, avg views, best views), cached with a "Last scanned …" indicator.
-- **Trend Finder**: add creators (saved); "Find trends" sweeps them and pools their videos into one table sorted by views (top 50) — the current best performers across the list.
-- Both reuse the same one-tab sweep with an "X of N" progress loader as Compare/Merge. Default 30 videos/account.
-
-## [12.5.0] — Compare & Merge (TikTok)
-
-- **Compare**: enter two creators, scan both, and see two result tables side by side.
-- **Merge**: add 2–6 creators, scan all, and get one combined table (with an Account column) sorted by views, plus per-account badges.
-- Both sweep through creators using a single reused foreground tab behind the Statly loading screen with an "X of N" counter — no tab-per-profile.
-
-## [12.4.0] — Cross-profile TikTok scanning
-
-- Type any @username in Audit and scan it without needing to already be on that profile.
-- Under the hood: a background "ghost" tab briefly opens the target profile, captures TikTok's own signed request, paginates in the background, then closes.
-- If you're already viewing the target profile, Statly still uses the faster in-page path.
-
-## [12.3.0] — Initial TikTok support
-
-- First TikTok build: host permissions for tiktok.com and its CDNs, a self-contained TikTok dashboard and scanner, and an updated "Choose a feed" picker (Instagram + TikTok).
-- Captures TikTok's own `/api/post/item_list/` request and paginates by cursor, reusing TikTok's session signature.
-- MVP scope: scans the profile currently being viewed; sidebar shows Audit only, with Compare/Merge/Watchlist marked "Soon" (shipped in 12.5.0–12.6.0 above).
-
-## [1.0.0] — Initial public release (Instagram)
-
-- Audit, Compare, Merge, Watchlist, and Trend Finder dashboards for Instagram.
-- Executive KPIs: View-to-Follower Ratio, Breakout Rate, Duration Payoff, and more.
-- Save Reels to a personal library; export/copy to spreadsheet; one-click MP4 download.
-- Statly API for Pro users; free tier of 3 scans/day, last 30 Reels.
-- Pro Monthly and Pro Yearly plans via Lemon Squeezy; viewer seats for read-only team sharing; dark mode.
-
----
-
-### How to use this changelog
-
-- Add a new `## [version] — description` section at the top for every release.
-- Group changes under `Added`, `Changed`, `Fixed`, `Removed`, and `Deprecated` where useful.
-- Link the version heading to the relevant Chrome Web Store update or release notes if available.
+- **12.5.1** (in Chrome Web Store review, October 2026). The full YouTube dashboard for every user, a download button on an open Instagram Reel, TikTok video or X post, and "Add to Statly".
+- **12.5.0** (6 Oct 2026). Connects to a Statly web app account; a running plan or trial removes the free limits.
+- **Earlier versions.** Audit, Compare, Merge, Watchlist and Trend Finder for Instagram, then TikTok, YouTube and X; executive KPIs and charts; CSV export; transcripts with your own Groq key.

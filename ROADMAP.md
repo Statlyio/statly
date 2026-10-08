@@ -1,50 +1,36 @@
-# Roadmap
+# Statly roadmap
 
-This page tracks what's shipped and what's planned for Statly. It's updated as priorities shift — join the [Telegram community](https://t.me/+vN3txumYQVlkZTFk) for early previews and to vote on what's next.
+What Statly does today, and what is on its way. Want something added? Email [info@trystatly.com](mailto:info@trystatly.com) or say it in the [Telegram community](https://t.me/+vN3txumYQVlkZTFk).
 
-## ✅ Shipped
+Last updated: 8 October 2026.
 
-**Instagram**
-- Audit dashboard — Reels, KPIs, and Charts tabs for any public profile
-- Executive KPIs (View-to-Follower Ratio, Breakout Rate, Duration Payoff, and more)
-- Compare dashboard — two profiles side by side
-- Merge dashboard — combine multiple accounts from one creator
-- Watchlist — save and batch-rescan profiles
-- Trend Finder — surface trending Reels across saved profiles, grouped by niche
-- Instagram Pulse (tracking @mosseri for platform updates)
-- Save-to-library for individual Reels
-- Export/copy to spreadsheet (Google Sheets–compatible format)
-- One-click MP4 download of any Reel
-- Statly API (basic + executive KPIs as JSON) for Pro users
-- License activation and multi-device toggle
-- Viewer seats (read-only team sharing, up to 5 seats)
-- Dark mode
+## Available now
 
-**TikTok** — now at full feature parity with Instagram
-- Audit dashboard — Posts, KPIs, and Charts tabs, matching the Instagram layout
-- Cross-profile scanning — audit any @username without needing to be on that profile
-- Compare — two creators side by side
-- Merge — combine 2–6 accounts from the same creator into one report
-- Watchlist — save creators, batch re-scan, per-account summary table
-- Trend Finder — pooled top-performing videos (top 50) across saved creators
-- Same executive KPI set and chart set as Instagram
-- Copy / export to spreadsheet, one-click MP4 download
+### Web app ([app.trystatly.com](https://app.trystatly.com))
 
-## 🚧 In progress / planned
+- Daily tracking of public Instagram Reels, TikTok, YouTube Shorts and X accounts, at the hour you choose
+- Scan window of the last 7, 14 or 30 days, with every video in it refreshed daily
+- Outlier score for every video (views ÷ the account's median views)
+- Trend Finder: growing fastest right now, the week's top outliers, top sounds, filters and sorting
+- Watchlist: niches, each account's full table, growth charts, posting times and video lengths
+- Library: save, tag, sort into folders and download videos; save X pictures and text
+- Workspaces with viewer, editor and admin roles
+- Alerts in Slack, Discord and Telegram
+- CSV export
+- Statly API and Statly MCP for Claude, ChatGPT and Cursor (Scale and above)
+- Extra videos for Scale and Agency (+1,000 or +2,000 a month)
+- 7-day free trial on every plan
 
-- [ ] **More platforms** — Twitter/X, Reddit, and YouTube analytics (per the in-app "Coming soon" list)
-- [ ] Expanded historical range beyond 300 posts / 180 days for large accounts
-- [ ] Additional export formats (direct Notion/Airtable integrations)
-- [ ] More executive KPIs and custom KPI builder
-- [ ] Deeper Trend Finder filtering (by hashtag, sound, or content type)
-- [ ] Public API documentation site
-- [ ] Team/agency plans beyond viewer seats (multi-editor access)
+### Chrome extension (free)
 
-## 💡 Under consideration
+- Audit, Compare and Merge on Instagram, TikTok, YouTube and X
+- Watchlist and Trend Finder (2 niches of 3 accounts on the free version)
+- Charts, executive KPIs and CSV export
+- Transcripts with your own free Groq key
+- Connects to the web app: a running plan or trial removes the free limits
 
-- [ ] Scheduled/automated recurring scans with email or Slack digests
-- [ ] Public changelog RSS feed
+## On its way
 
-> ✏️ **Maintainer note:** the "More platforms" order and scope above reflects the current in-app picker (Instagram, TikTok live; Twitter, Reddit & YouTube marked "Soon"). Update this section as soon as build/priority details are locked in.
+- **Extension version 12.5.1** (in Chrome Web Store review): the full YouTube dashboard for every user, a download button on an open Instagram Reel, TikTok video or X post, and "Add to Statly", which adds an audited account to a web app niche in one click. The web app side of "Add to Statly" is already live.
 
-Have a feature request? Open an issue in this repo, or email [info.statly@gmail.com](mailto:info.statly@gmail.com).
+New plans are added here once they are decided, not before.
