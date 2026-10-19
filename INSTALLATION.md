@@ -2,15 +2,14 @@
 
 Statly has two parts. The **web app** tracks the accounts you choose every day. The free **Chrome extension** audits any account while you browse. You can use either one alone, or connect them.
 
-## Start the web app (7-day free trial)
+## Start the web app (free preview, no card)
 
-1. Go to [app.trystatly.com](https://app.trystatly.com) and sign in with your email. Statly sends you a sign-in link, so there is no password to remember.
-2. **Name your workspace.** One workspace per brand or client works well.
-3. **Add your first account.** Paste a handle (for example `@gymshark`) or a profile link from Instagram, TikTok, YouTube or X. It must be a public account.
-4. **Pick the hour your data should be ready.** Statly re-reads every account once a day, before that hour, in your time zone.
-5. **Choose a plan.** Checkout asks for a card and starts a 7-day free trial; the plan begins after 7 days unless you cancel. Compare plans on [trystatly.com/pricing](https://trystatly.com/pricing).
+1. Go to [app.trystatly.com](https://app.trystatly.com) and sign in with Google or your email (Statly sends a sign-in link, so there is no password to remember).
+2. **Add the accounts you want to track**, up to 5 during the free preview. Paste profile links from Instagram, TikTok, YouTube or X. They must be public accounts.
+3. **Pick the hour your data should be ready** and how far back to track (the last 7, 14 or 30 days). Statly re-reads every account once a day, before that hour, in your time zone.
+4. **Answer four quick questions** about you, then start tracking. No card is needed.
 
-Statly scans your first account straight away. After that:
+Statly scans your accounts straight away, and every day for the 3 days of the free preview. After that, daily scans stop and everything already found stays in your account until you choose a plan on the pricing page (charged when you subscribe). Compare plans on [trystatly.com/pricing](https://trystatly.com/pricing). After that:
 
 - **Add more accounts** and group them into niches (by topic, competitor set or client). You can paste several handles or links at once.
 - **Choose your scan window** (the last 7, 14 or 30 days) in Settings.
@@ -30,7 +29,7 @@ No Statly account is needed for the free extension. The free limits are 3 scans 
 ## Connect the extension to the web app
 
 1. In the web app, open **Settings → Chrome extension** and connect.
-2. While your plan or free trial is running, the extension's free limits are gone. Teammates with the Viewer role stay on the free limits.
+2. While a paid plan is running, the extension's free limits are gone. Teammates with the Viewer role stay on the free limits.
 
 ## Troubleshooting
 
@@ -40,6 +39,6 @@ No Statly account is needed for the free extension. The free limits are 3 scans 
 | An account shows **Account not found** | The handle was renamed or deleted. Check the spelling, or remove it and add the new handle. |
 | A video's growth says **Too new** | Growth appears once a video is two days old. |
 | The extension icon does nothing on a profile | Reload the tab after installing, and check that Statly is turned on in `chrome://extensions`. |
-| The extension says you used today's scans | Free scans reset at midnight, or connect the extension to a web app plan or trial. |
+| The extension says you used today's scans | Free scans reset at midnight, or connect the extension to a paid web app plan. |
 
 Still stuck? Email [info@trystatly.com](mailto:info@trystatly.com) or ask in the [Telegram community](https://t.me/+vN3txumYQVlkZTFk).

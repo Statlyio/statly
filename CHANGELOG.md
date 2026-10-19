@@ -6,10 +6,11 @@ Notable changes to Statly, newest first. The web app updates continuously; the C
 
 ### October 2026
 
+- **Free preview** (20 Oct). Try Statly with no card: up to 5 accounts, scanned daily for 3 days, then choose a plan; everything found stays in your account. It replaces the 7-day card trial. Sign-up now asks for your accounts, the hour your data should be ready, how far back to track (7, 14 or 30 days) and four quick questions; a new pricing page recommends the plan that fits.
 - **Every Instagram video refreshed, every day** (7–8 Oct). When Instagram's list of an account's videos leaves some out, Statly now reads those videos one by one, so everything inside your window is refreshed daily. Videos the creator deleted disappear from your dashboards and the API instead of keeping old numbers.
 - **Clearer growth figures** (7 Oct). Each video's growth explains itself: "Too new" for its first two days, and a short reason wherever a figure is missing.
 - **Add to Statly** (7 Oct). The web app is ready for the extension's one-click "Add to Statly" (arriving with extension 12.5.1). An open dashboard notices accounts added from the extension and shows their first scan.
-- **Chrome extension link** (6 Oct). Connect the extension under Settings → Chrome extension; a running plan or trial removes its free limits.
+- **Chrome extension link** (6 Oct). Connect the extension under Settings → Chrome extension; a running paid plan removes its free limits.
 - **X (Twitter)** (3 Oct). Track X accounts: original posts and quotes, with views, likes, replies, reposts, quotes and bookmarks, a post type filter, and buttons to save a post's pictures and text.
 - **Extra videos** (3 Oct). Scale and Agency can add +1,000 or +2,000 videos to their plan, monthly.
 

@@ -80,7 +80,11 @@ Starter €39 a month (€390 a year), Scale €89 a month (€890 a year), Agen
 
 ### Is there a free trial?
 
-Yes, 7 days. The trial asks for a card at checkout and becomes your plan after 7 days unless you cancel. During the trial you can track up to 20 accounts and 500 videos.
+Yes: a free preview, with no card. Track up to 5 accounts for 3 days. After that, daily scans stop and everything you found stays in your account until you choose a plan. Paid plans are charged when you subscribe.
+
+### Do I need a card to try Statly?
+
+No. You only add a card when you choose a plan.
 
 ### What does "videos tracked at once" mean?
 
@@ -92,13 +96,13 @@ Nothing stops. Statly keeps refreshing each account's newest videos first, and t
 
 ### Which plans include the API and MCP?
 
-Scale, Agency and Enterprise, from the first paid day. Not Starter, and not during the free trial.
+Scale, Agency and Enterprise, from the first paid day. Not Starter, and not during the free preview.
 
 ## The Chrome extension
 
 ### Is the Chrome extension free?
 
-Yes, and it needs no Statly account. The free limits are 3 scans a day (shared by Audit, Compare and Merge), and a Watchlist and Trend Finder of 2 niches with 3 accounts each. Every web app plan, the 7-day free trial included, removes the limits once you connect the extension to your account.
+Yes, and it needs no Statly account. The free limits are 3 scans a day (shared by Audit, Compare and Merge), and a Watchlist and Trend Finder of 2 niches with 3 accounts each. Every paid web app plan removes the limits once you connect the extension to your account.
 
 ### What is the difference between the extension and the web app?
 
@@ -106,7 +110,7 @@ The extension scans an account when you click, inside your browser, for a quick 
 
 ### How do I connect the extension to the web app?
 
-In the web app, open Settings → Chrome extension and connect. A connected browser gets the extension's full scans while your plan or free trial is running. Teammates with the Viewer role stay on the free limits, because a Viewer can only read.
+In the web app, open Settings → Chrome extension and connect. A connected browser gets the extension's full scans while a paid plan is running. Teammates with the Viewer role stay on the free limits, because a Viewer can only read.
 
 ## API and MCP
 

@@ -12,7 +12,7 @@ Full, up-to-date write-ups live on the Statly website: [all comparisons](https:/
 | Best for | Short-form research: finding the videos that beat their own account's baseline, and turning them into your next brief |
 | Platforms | Instagram Reels, TikTok, YouTube Shorts and X |
 | Accounts you can track | Any public account, competitors included, with no account limit |
-| Price | From €39 a month (Starter, 2,000 videos, 5 seats), 7-day free trial |
+| Price | From €39 a month (Starter, 2,000 videos, 5 seats); free preview with no card |
 | Data refresh | Every 24 hours, at the hour you choose |
 | Per-video outlier score | Yes, on every tracked video |
 | Team, alerts, API and MCP | Workspaces with roles; Slack, Discord and Telegram alerts; API and MCP on Scale and above |

@@ -19,7 +19,7 @@ Last updated: 8 October 2026.
 - CSV export
 - Statly API and Statly MCP for Claude, ChatGPT and Cursor (Scale and above)
 - Extra videos for Scale and Agency (+1,000 or +2,000 a month)
-- 7-day free trial on every plan
+- Free preview: 5 accounts for 3 days, no card
 
 ### Chrome extension (free)
 
@@ -27,7 +27,7 @@ Last updated: 8 October 2026.
 - Watchlist and Trend Finder (2 niches of 3 accounts on the free version)
 - Charts, executive KPIs and CSV export
 - Transcripts with your own free Groq key
-- Connects to the web app: a running plan or trial removes the free limits
+- Connects to the web app: a paid plan removes the free limits
 
 ## On its way
 

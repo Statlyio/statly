@@ -6,7 +6,7 @@
 
 Outlier video research for **Instagram Reels, TikTok, YouTube Shorts and X**: a web app that tracks the accounts you choose daily, plus a free Chrome extension for quick audits.
 
-[![Start free trial](https://img.shields.io/badge/Web%20app-Start%207--day%20free%20trial-5b4bdb)](https://app.trystatly.com)
+[![Try Statly free](https://img.shields.io/badge/Web%20app-Try%20Statly%20free%2C%20no%20card-5b4bdb)](https://app.trystatly.com)
 [![Website](https://img.shields.io/badge/Website-trystatly.com-111111)](https://trystatly.com)
 [![Chrome extension](https://img.shields.io/badge/Chrome-Free%20extension-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/statly/dgclmofackofobhpmklmhbponpkjbbph)
 [![Docs license](https://img.shields.io/badge/docs%20license-CC--BY--4.0-blue)](LICENSE)
@@ -36,7 +36,7 @@ Statly is made for **content creators, social media managers, marketing teams, a
 | **Scan window** | Videos from the last 7, 14 or 30 days |
 | **Core metric** | Outlier score = a video's views ÷ its account's median views (2× or more is worth studying) |
 | **Login to social networks needed** | No. Public accounts only, including competitors you don't own |
-| **Free trial** | 7 days, card at checkout, cancel any time before it ends |
+| **Free preview** | No card: up to 5 accounts tracked daily for 3 days, then pick a plan |
 | **Paid plans** | Starter €39, Scale €89, Agency €179 a month, or custom (Enterprise) |
 | **Team access** | Workspaces with viewer, editor and admin roles |
 | **API and MCP** | Read-only REST API and an MCP server for Claude, ChatGPT and Cursor (Scale and above) |
@@ -69,7 +69,7 @@ The web app at [app.trystatly.com](https://app.trystatly.com) is Statly's main p
 
 ### How it works
 
-1. **Start a 7-day free trial** at [app.trystatly.com](https://app.trystatly.com): name your workspace, add your first account, pick the hour your data should be ready, and choose a plan.
+1. **Start a free preview** at [app.trystatly.com](https://app.trystatly.com), no card needed: add up to 5 accounts, pick the hour your data should be ready and how far back to track (7, 14 or 30 days). The first scan starts straight away.
 2. **Add the accounts you want to watch** and group them into niches. Paste a handle or a profile link from Instagram, TikTok, YouTube or X.
 3. **Every morning**, Statly has re-read every video in your window. Open the Trend Finder to see what is taking off, and the Watchlist to study each account.
 
@@ -77,7 +77,7 @@ The web app at [app.trystatly.com](https://app.trystatly.com) is Statly's main p
 
 | Plan | Monthly | Yearly | Videos tracked at once | Seats | API and MCP |
 |---|---|---|---|---|---|
-| **Free trial** | Free for 7 days | | 500 (20 accounts) | 5 | No |
+| **Free preview** | Free for 3 days, no card | | 300 (5 accounts) | No | No |
 | **Starter** | €39/month | €390/year | 2,000 | 5 | No |
 | **Scale** | €89/month | €890/year | 5,000 | 10 | Yes |
 | **Agency** | €179/month | €1,790/year | 10,000 | Unlimited | Yes |
@@ -85,8 +85,8 @@ The web app at [app.trystatly.com](https://app.trystatly.com) is Statly's main p
 
 - "Videos tracked at once" means every video inside your scan window, across all the accounts you track.
 - Scale and Agency can add **extra videos**: +1,000 videos for €20 a month, up to +2,000 (monthly billing).
-- The trial asks for a card at checkout and becomes your plan after 7 days unless you cancel.
-- Every web app plan, the free trial included, also removes the Chrome extension's free limits.
+- The free preview needs no card. After 3 days daily scans stop and everything found stays in your account; choosing a plan starts them again. Paid plans are charged when you subscribe.
+- Every paid web app plan also removes the Chrome extension's free limits.
 - Current prices always live on [trystatly.com/pricing](https://trystatly.com/pricing).
 
 ---
@@ -104,7 +104,7 @@ The extension scans when you click. **Daily tracking is the web app's job**: use
 - **Export:** CSV export and copy links.
 - **Transcripts:** transcribe Instagram, TikTok and X videos with your own free Groq key.
 
-**Free limits:** 3 scans a day (shared by Audit, Compare and Merge), and a Watchlist and Trend Finder of 2 niches with 3 accounts each. No Statly account is needed to use it. Every web app plan, the 7-day free trial included, removes these limits: connect the extension in the web app under Settings → Chrome extension. Teammates with the Viewer role stay on the free limits.
+**Free limits:** 3 scans a day (shared by Audit, Compare and Merge), and a Watchlist and Trend Finder of 2 niches with 3 accounts each. No Statly account is needed to use it. Every paid web app plan removes these limits: connect the extension in the web app under Settings → Chrome extension. Teammates with the Viewer role stay on the free limits.
 
 **Coming in version 12.5.1** (in Chrome Web Store review): the full YouTube dashboard for every user, a download button on an open Instagram Reel, TikTok video or X post, and **"Add to Statly"**, which adds an audited account to a web app niche in one click.
 
@@ -114,7 +114,7 @@ Store facts (7 October 2026): version 12.5.0, category Social Networking, rated 
 
 ## API and MCP
 
-Included with Scale, Agency and Enterprise from the first paid day (not on Starter or during the free trial).
+Included with Scale, Agency and Enterprise from the first paid day (not on Starter or during the free preview).
 
 - **Statly API:** a read-only REST API for your workspace: niches, tracked accounts, videos and posts with outlier scores, top sounds and the Library. It reads what the daily scan already collected and never starts a scan. Keys are created in the app under Settings → API & MCP, sent as `Authorization: Bearer YOUR_KEY`. Limits: 60 calls a minute and 10,000 a day per workspace. Docs: [api.trystatly.com](https://api.trystatly.com).
 - **Statly MCP:** connect Claude, ChatGPT or Cursor at `https://mcp.trystatly.com/mcp`, sign in with Statly and press Allow. The assistant reads one workspace (including post thumbnails) and can't change anything. [Learn more](https://trystatly.com/mcp).
