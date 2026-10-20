@@ -6,6 +6,7 @@ Notable changes to Statly, newest first. The web app updates continuously; the C
 
 ### October 2026
 
+- **Free preview emails** (20 Oct). Up to four short emails during and after the free preview, each with your own numbers: your best video, what grew overnight, a last-day reminder and a final note. They stop once you choose a plan, with an unsubscribe link in each.
 - **Free preview** (20 Oct). Try Statly with no card: 500 videos with no account limit, scanned daily for 3 days, then choose a plan; everything found stays in your account. It replaces the 7-day card trial. Sign-up now asks for your accounts, the hour your data should be ready, how far back to track (7, 14 or 30 days) and four quick questions; a new pricing page recommends the plan that fits.
 - **Every Instagram video refreshed, every day** (7–8 Oct). When Instagram's list of an account's videos leaves some out, Statly now reads those videos one by one, so everything inside your window is refreshed daily. Videos the creator deleted disappear from your dashboards and the API instead of keeping old numbers.
 - **Clearer growth figures** (7 Oct). Each video's growth explains itself: "Too new" for its first two days, and a short reason wherever a figure is missing.

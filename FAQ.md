@@ -86,6 +86,10 @@ Yes: a free preview, with no card. Track 500 videos from as many accounts as fit
 
 No. You only add a card when you choose a plan.
 
+
+### What emails will I get during the free preview?
+
+At most four, each with your own numbers: when your accounts are ready (with your best video), what grew overnight, a reminder on the last day, and one two days after the preview ends. They stop as soon as you choose a plan, and every email has an unsubscribe link. Sign-in links and receipts always come.
 ### What does "videos tracked at once" mean?
 
 Every video inside your scan window, across all the accounts you track. Starter holds 2,000, Scale 5,000, Agency 10,000.
