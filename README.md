@@ -36,7 +36,7 @@ Statly is made for **content creators, social media managers, marketing teams, a
 | **Scan window** | Videos from the last 7, 14 or 30 days |
 | **Core metric** | Outlier score = a video's views ÷ its account's median views (2× or more is worth studying) |
 | **Login to social networks needed** | No. Public accounts only, including competitors you don't own |
-| **Free preview** | No card: up to 5 accounts tracked daily for 3 days, then pick a plan |
+| **Free preview** | No card: 500 videos, no account limit, tracked daily for 3 days, then pick a plan |
 | **Paid plans** | Starter €39, Scale €89, Agency €179 a month, or custom (Enterprise) |
 | **Team access** | Workspaces with viewer, editor and admin roles |
 | **API and MCP** | Read-only REST API and an MCP server for Claude, ChatGPT and Cursor (Scale and above) |
@@ -69,7 +69,7 @@ The web app at [app.trystatly.com](https://app.trystatly.com) is Statly's main p
 
 ### How it works
 
-1. **Start a free preview** at [app.trystatly.com](https://app.trystatly.com), no card needed: add up to 5 accounts, pick the hour your data should be ready and how far back to track (7, 14 or 30 days). The first scan starts straight away.
+1. **Start a free preview** at [app.trystatly.com](https://app.trystatly.com), no card needed: add the accounts you want (500 videos, no account limit), pick the hour your data should be ready and how far back to track (7, 14 or 30 days). The first scan starts straight away.
 2. **Add the accounts you want to watch** and group them into niches. Paste a handle or a profile link from Instagram, TikTok, YouTube or X.
 3. **Every morning**, Statly has re-read every video in your window. Open the Trend Finder to see what is taking off, and the Watchlist to study each account.
 
@@ -77,7 +77,7 @@ The web app at [app.trystatly.com](https://app.trystatly.com) is Statly's main p
 
 | Plan | Monthly | Yearly | Videos tracked at once | Seats | API and MCP |
 |---|---|---|---|---|---|
-| **Free preview** | Free for 3 days, no card | | 300 (5 accounts) | No | No |
+| **Free preview** | Free for 3 days, no card | | 500 | No | No |
 | **Starter** | €39/month | €390/year | 2,000 | 5 | No |
 | **Scale** | €89/month | €890/year | 5,000 | 10 | Yes |
 | **Agency** | €179/month | €1,790/year | 10,000 | Unlimited | Yes |

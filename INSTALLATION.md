@@ -5,7 +5,7 @@ Statly has two parts. The **web app** tracks the accounts you choose every day. 
 ## Start the web app (free preview, no card)
 
 1. Go to [app.trystatly.com](https://app.trystatly.com) and sign in with Google or your email (Statly sends a sign-in link, so there is no password to remember).
-2. **Add the accounts you want to track**, up to 5 during the free preview. Paste profile links from Instagram, TikTok, YouTube or X. They must be public accounts.
+2. **Add the accounts you want to track.** The free preview holds 500 videos, from as many accounts as fit. Paste profile links from Instagram, TikTok, YouTube or X. They must be public accounts.
 3. **Pick the hour your data should be ready** and how far back to track (the last 7, 14 or 30 days). Statly re-reads every account once a day, before that hour, in your time zone.
 4. **Answer four quick questions** about you, then start tracking. No card is needed.
 

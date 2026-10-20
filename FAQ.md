@@ -80,7 +80,7 @@ Starter €39 a month (€390 a year), Scale €89 a month (€890 a year), Agen
 
 ### Is there a free trial?
 
-Yes: a free preview, with no card. Track up to 5 accounts for 3 days. After that, daily scans stop and everything you found stays in your account until you choose a plan. Paid plans are charged when you subscribe.
+Yes: a free preview, with no card. Track 500 videos from as many accounts as fit (no account limit) for 3 days. After that, daily scans stop and everything you found stays in your account until you choose a plan. Paid plans are charged when you subscribe.
 
 ### Do I need a card to try Statly?
 

@@ -19,7 +19,7 @@ Last updated: 8 October 2026.
 - CSV export
 - Statly API and Statly MCP for Claude, ChatGPT and Cursor (Scale and above)
 - Extra videos for Scale and Agency (+1,000 or +2,000 a month)
-- Free preview: 5 accounts for 3 days, no card
+- Free preview: 500 videos, no account limit, 3 days, no card
 
 ### Chrome extension (free)
 
